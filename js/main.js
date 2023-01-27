@@ -32,4 +32,7 @@ function remove(index) {
 function edit(index) {
   let name = prompt("Ingresa el nuevo nombre:");
   let email = prompt("Ingresa el nuevo email:");
+  data[index] = {name, email};
+  localStorage.setItem("data", JSON.stringify(data));
+  render();
 }
