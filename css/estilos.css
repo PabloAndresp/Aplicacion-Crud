@@ -24,7 +24,7 @@ nav a{
   color: white;
   font-size: 30px;
   display:center;
-  margin-left: 150px;
+  margin-left: 100px;
 }
  body {
   background-color:rgb(10, 23, 96) ;
@@ -98,8 +98,8 @@ main h1 {
 .box-copyright{
     max-width: 1500px;
     margin: auto;
-    text-align: center;
-    padding:  40px;
+    
+    padding:  180px;
 }
 .box-copyright p{
     margin-top: 10px;
